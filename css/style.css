@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+
+/* Style.CSS*/
+/* This is where you can include your custom styles for your website.
+ * Try to keep it organized and well-structured. Feel free to 
+ * change around the default settings. (In fact, it's better to!)
+ */
+
+ .navbar {
+
+ }
+
+ .hero {
+
+ }
+
+ .about-me {
+
+ }
+
+ .projects {
+
+ }
+
+.contact {
+  
+}
+
+body {
+  font-family: 'Coming Soon', cursive;
+  font-size: 1.8rem;
+}
+
+
+.paper-sheet {
+  margin: 0 auto;
+  padding: 32px;
+  width: 80%;
+  background-image: url("../assets/paper.jpg");
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.14),
+              0 2px 10px 0 rgba(0,0,0,0.12),
+              0 6px 2px -4px rgba(0,0,0,0.2);
+}
+
+.tag {
+  color: #016FBA;   
+}
+
+.show-style {
+  font-size: 1.5rem;
+}
+
+.show-doctype {
+  display: none;
+}
+
+.concept {
+  color: green;
+  text-decoration: underline;
+  font-weight: bold;  
+}
+
+.warning {
+  color: red;
+  text-decoration: underline;
+  font-weight: bold;  
+}
+
+.tag:hover {
+  text-decoration: underline;
+}
+
+.attr {
+  color: #E44D26;
+}
+
+.val {
+  color: #DAB92D;
+}
